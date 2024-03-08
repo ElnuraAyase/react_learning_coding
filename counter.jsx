@@ -14,7 +14,7 @@ const Counter = () = {
       {/* Display the current count */}
       <p>Count: {count}</p>
       {/* Button to increment the counter */}
-      <button onClick=  {handleIncrement}>Increment</button>
+      <button onClick={handleIncrement}>Increment</button>
     </div>
   );
 };

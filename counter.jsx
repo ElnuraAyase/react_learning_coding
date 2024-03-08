@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 const Counter = () = {
   // State variable to store the counter value
-  const [count setCount] = useState(0);
+  const [count, setCount] = useState(0);
 
   // Function to handle incrementing the counter
   const handleIncrement = () => {

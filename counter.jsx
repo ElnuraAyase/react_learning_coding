@@ -1,4 +1,4 @@
-import React, { useState } from react';
+import React, { useState } from 'react';
 
 const Counter = () = {
   // State variable to store the counter value
@@ -15,7 +15,7 @@ const Counter = () = {
       <p>Count: {count}</p>
       {/* Button to increment the counter */}
       <button onClick=  {handleIncrement}>Increment</button>
-    <div>
+    </div>
   );
 };
 

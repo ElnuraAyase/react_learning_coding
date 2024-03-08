@@ -9,3 +9,14 @@ const GuessingGame = () => {
   const handleInputChange = (event) => {
     setGuess(event.target.value);
   };
+  const handleGuess = () => {
+    const userGuess = parseInt(guess);
+    if (isNaN(userGuess)) {
+      setMessage('Please enter a valid number.');
+    } else if (userGuess === number) {
+      setMessage('Congratulations! You guessed the correct number!');
+    } else if (userGuess < number) {
+      setMessage('Try a higher number.');
+    } else {
+
+

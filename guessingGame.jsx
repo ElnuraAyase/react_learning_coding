@@ -27,5 +27,13 @@ const GuessingGame = () => {
     <div>
       <h1>Guessing Game</h1>
       <p>Guess a number between 1 and 100:</p>
+            <input type="text" value={guess} onChange={handleInputChange} />
+      <button onClick={handleGuess}>Guess</button>
+      <p>{message}</p>
+    </div>
+  );
+};
+
+export default GuessingGame;
 
 

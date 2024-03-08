@@ -14,6 +14,6 @@ const ButtonToggle = () => {
       </button>
     </div>
   );
-}
+};
 
-export default ButtonToggle
+export default ButtonToggle;

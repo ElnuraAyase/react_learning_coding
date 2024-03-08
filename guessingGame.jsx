@@ -18,5 +18,14 @@ const GuessingGame = () => {
     } else if (userGuess < number) {
       setMessage('Try a higher number.');
     } else {
+      setMessage('Try a lower number.');
+    }
+    setGuess('');
+  };
+
+  return (
+    <div>
+      <h1>Guessing Game</h1>
+      <p>Guess a number between 1 and 100:</p>
 
 

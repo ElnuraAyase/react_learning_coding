@@ -7,3 +7,13 @@ const ButtonToggle = () => {
   const handleClick = () => {
     setIsClicked(!isClicked);
   };
+  return (
+    <div>
+      <button onClick={handleClick}>
+        {isClicked ? 'Clicked!' : 'Click Me!'}
+      </button>
+    </div>
+  );
+}
+
+export default ButtonToggle

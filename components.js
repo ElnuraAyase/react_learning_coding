@@ -16,3 +16,14 @@ class SimpleComponent extends React.Component { // Define a class component
   }
 
  
+  render() {
+    // Render method to define component's UI
+    return (
+      <div>
+        <h1>Simple React Component</h1> {/* Render a heading */}
+        <p>Count: {this.state.count}</p> {/* Render current count value */}
+        <button onClick={this.incrementCount}>Increment</button> {/* Render a button with onClick event */}
+      </div>
+    );
+  }
+}
